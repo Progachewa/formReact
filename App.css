@@ -1,0 +1,40 @@
+.App{
+  color: #fff;
+}
+
+@keyframes formShowing{
+  from{ margin-right: -300px; }
+  to { margin-right: 0px; }
+} 
+
+.FormContainer{
+  overflow: hidden;
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  background-color: goldenrod;
+  top: 50px;
+  right: 20px;
+  animation-name: formShowing;
+  animation-duration: 3s;
+  border-radius: 10%;
+  box-shadow:  10px 10px 10px 5px lightgoldenrodyellow;
+}
+
+.FormInput{
+  margin-left: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+label{
+  width: 100px;
+  display: inline-block;
+}
+
+input[type='submit']{
+ margin: 150px;
+ box-shadow: 0px 5px 8px 2px black;
+ font-weight: bold;
+}
+

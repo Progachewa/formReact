@@ -1,0 +1,13 @@
+.cardContainer{
+    position: relative;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 20px ;
+    text-align: center;
+    width: 370px;
+    height: 200px;
+    display: inline-block;
+    line-height: 3;
+    background-color: goldenrod;
+    box-shadow:  10px 10px 10px 5px lightgoldenrodyellow;
+}
